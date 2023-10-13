@@ -1,0 +1,215 @@
+/* #F0F7EE menta     
+   #5D737E gris
+   #87BBA2 acua
+   #FFF07C amarillo
+
+*/
+@font-face {
+  font-family: Agrandir-TextBold;
+  src: url(./Fuentes/Agrandir-TextBold.otf);
+}
+@font-face {
+  font-family: Agrandir-Regular;
+  src: url(./Fuentes/Agrandir-Regular.otf);
+}
+@font-face {
+  font-family: Agrandir-Narrow;
+  src: url(./Fuentes/Agrandir-Narrow.otf);
+}
+body {
+  background-color: #F0F7EE !important;
+  font-family: Agrandir-Regular;
+}
+
+.navbar {
+  background-color: #ccd4dc !important;
+}
+
+.nav-link {
+  color: #172A3A !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #172A3A !important;
+  background-color: #d5d9db;
+  border-radius: 5px;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.jombotron p {
+  color: #172A3A !important;
+  font-size: 25px;
+}
+
+h3 {
+  color: #58646e !important;
+}
+
+h5 {
+  color: #172A3A !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imgPrincipal {
+  border-radius: 10px !important;
+}
+
+@media (min-width: 500px) {
+  .imgPrincipal {
+    border-radius: 10px !important;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+.logo {
+  font-size: 60px;
+  color: #3a4e5e;
+}
+
+.feat {
+  text-align: center !important;
+}
+
+footer {
+  background-color: #172A3A !important;
+  min-width: 10%;
+  color: #F0F7EE;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.redes {
+  color: #F0F7EE;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.Logo2 {
+  color: #58646e;
+  font-size: 50px;
+}
+
+span {
+  color: #F0F7EE;
+  font-size: 30px !important;
+  padding-left: 10px;
+}
+
+.servicios {
+  transition: 0.3s;
+  background-color: #e5ebe4;
+  border-radius: 15px;
+}
+
+.servicios:hover {
+  background-color: #d5d9db;
+  border-radius: 15px;
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.boton {
+  background-color: #e5ebe4;
+  color: #172A3A;
+}
+
+.boton:hover {
+  background-color: #26455e;
+  color: #F0F7EE;
+}
+
+.boton2 {
+  background-color: #d5d9db;
+  color: #172A3A;
+}
+
+.boton2:hover {
+  background-color: #26455e;
+  color: #F0F7EE;
+}
+
+.boxLogo2 {
+  background-color: #e5ebe4;
+}
+
+.tarifa {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  font-weight: bold;
+  color: #58646e;
+}
+
+.strong2 {
+  font-weight: bold;
+  color: #172A3A;
+}
+
+.descuentos {
+  font-size: 50px;
+  font-weight: bold;
+  color: #82D4BB;
+}
+
+.descuentos1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #82C09A;
+}
+
+.descuentos2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #82AC9F;
+}
+
+.descuentos3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #829298;
+}
+
+.descuentos4 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #94778B;
+}
+
+.descuentos5 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #89555f;
+}
+
+.ParrafoImg {
+  color: #F0F7EE;
+}
+
+.altura {
+  max-height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.altura2 {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.precio {
+  color: #82AC9F;
+}
+
+/*# sourceMappingURL=estilos.css.map */
